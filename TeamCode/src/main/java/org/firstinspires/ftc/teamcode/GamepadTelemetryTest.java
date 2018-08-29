@@ -5,9 +5,9 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
-@TeleOp(name="Test", group="Linear Opmode")
+@TeleOp(name="GamepadTelemetryTest", group="Linear Opmode")
 @Disabled
-public class Test extends LinearOpMode {
+public class GamepadTelemetryTest extends LinearOpMode {
 
     @Override
     public void runOpMode() {
