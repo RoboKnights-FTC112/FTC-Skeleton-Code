@@ -20,7 +20,7 @@ public class GamepadTelemetryTest extends LinearOpMode {
 
             boolean aButton = gamepad1.a;
 
-            telemetry.addData("Status", "Running");
+            telemetry.addData("Status", "Running fine.");
             telemetry.addData("a Button", aButton);
             telemetry.update();
         }
